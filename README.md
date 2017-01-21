@@ -1,4 +1,4 @@
-# WebpackBin project
+# Styletron Playground
 
 ## Start
 
@@ -7,4 +7,3 @@
 `npm start`
 
 Go to `localhost:8080`
-"# Styletron-Playground" 
