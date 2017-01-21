@@ -15,12 +15,18 @@ const Wrapper = styled('section', () => ({
   background: 'honeydew'
 }));
 
+const Description = styled('p', () => ({
+  fontSize: '1.1em',
+  color: 'blue',
+}));
+
 export default function HelloWorld() {
   // Render these styled components like normal react components. They will pass on all props and work
   // like normal react components – except they're styled!
   return (
     <Wrapper>
       <Title>Hello World, this is my first styletron!</Title>
+      <Description>This is a description to test styletron, and its pretty cool, but i can't edit in style in Chrome DevTools.... Why is that?</Description>
     </Wrapper>
   );
 }
