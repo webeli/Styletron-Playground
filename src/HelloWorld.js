@@ -6,7 +6,7 @@ import {styled} from 'styletron-react';
 const Title = styled('h1', () => ({
   fontSize: '1.5em',
   textAlign: 'center',
-  color: 'salmon'
+  color: 'blue'
 }));
 
 // Create a <Wrapper> react component that renders a <section> with some padding and a honeydew background
