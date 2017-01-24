@@ -8,7 +8,7 @@ const Title = styled('h1', () => ({
   color: 'blue',
 }));
 
-// Create a <Wrapper> react component that renders a <section> with some padding and a honeydew background
+//// Create a <Wrapper> react component that renders a <section> with some padding and a honeydew background
 const Wrapper = styled('section', (props) => ({
   background: 'honeydew',
   display: props.show ? 'flex' : 'none',
